@@ -212,8 +212,8 @@ function App() {
             <a
               href="https://wa.me/6281327718183"
               className="bg-[#2467E3] mt-8 font-medium text-md sm:text-base md:text-lg lg:text-xl py-4 sm:py-5 px-6 sm:px-10 text-white rounded-[50px]
-              transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 shadow-[0_0_20px_0px_#6D4AF7CC] 
-            hover:shadow-[0_0_30px_2px_#6D4AF7CC] "
+              transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 shadow-[0_0_20px_0px_#2467E3] 
+            hover:shadow-[0_0_30px_2px_#2467E3] "
             >
               Booking Sekarang <i className="ri-arrow-right-up-line"></i>
             </a>
