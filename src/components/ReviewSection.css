@@ -1,0 +1,146 @@
+.review-section {
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.review-swiper {
+  padding: 10px 0 60px;
+}
+
+.review-card {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.reviewer-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #667eea;
+}
+
+.reviewer-info {
+  flex: 1;
+}
+
+.reviewer-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2467e3;
+  margin: 0 0 5px 0;
+}
+
+.reviewer-role {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.rating {
+  margin-bottom: 15px;
+}
+
+.star {
+  color: #ddd;
+  font-size: 1.5rem;
+  margin-right: 3px;
+}
+
+.star.filled {
+  color: #ffc107;
+}
+
+.review-text {
+  color: #555;
+  line-height: 1.8;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Swiper Navigation Buttons */
+.review-swiper .swiper-button-next,
+.review-swiper .swiper-button-prev {
+  color: rgb(238, 238, 238);
+  background: rgba(255, 255, 255, 0.2);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+}
+
+.review-swiper .swiper-button-next:after,
+.review-swiper .swiper-button-prev:after {
+  font-size: 20px;
+}
+
+.review-swiper .swiper-button-next:hover,
+.review-swiper .swiper-button-prev:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Swiper Pagination */
+.review-swiper .swiper-pagination-bullet {
+  background: rgb(188, 188, 188);
+  opacity: 0.5;
+  width: 12px;
+  height: 12px;
+}
+
+.review-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: gray;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .review-section {
+    padding: 60px 5px;
+  }
+
+  .review-card {
+    padding: 30px;
+  }
+}
