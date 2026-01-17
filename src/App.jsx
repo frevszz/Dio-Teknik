@@ -194,7 +194,7 @@ function App() {
         <div className="w-full bg-[#EAEAEA]">
           <div className="max-w-7xl mx-auto px-10 py-15 mt-10">
             <h1 className="font-semibold text-center text-3xl sm:text-5xl">
-              Review Pelanggan ✨
+              Review Pelanggan
             </h1>
             <ReviewSection />
           </div>
