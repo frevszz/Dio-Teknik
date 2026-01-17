@@ -36,21 +36,21 @@ const Navbar = () => {
           <nav className="hidden md:flex gap-10">
             <a
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="font-semibold text-sm md:text-base py-2 hover:text-[#6D4AF7CC] cursor-pointer"
+              className="font-semibold text-sm md:text-base py-2 hover:text-[#2467E3] cursor-pointer"
             >
               BERANDA
             </a>
 
             <a
               onClick={() => handleNavClick("About")}
-              className="font-semibold text-sm py-2 md:text-base cursor-pointer hover:text-[#6D4AF7CC]"
+              className="font-semibold text-sm py-2 md:text-base cursor-pointer hover:text-[#2467E3]"
             >
               TENTANG
             </a>
 
             <a
               onClick={() => handleNavClick("Service")}
-              className="font-semibold text-sm py-2 md:text-base cursor-pointer hover:text-[#6D4AF7CC]"
+              className="font-semibold text-sm py-2 md:text-base cursor-pointer hover:text-[#2467E3]"
             >
               LAYANAN
             </a>
