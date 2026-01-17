@@ -1,16 +1,41 @@
-# React + Vite
+# Dio-Teknik
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Static Website Company Profile untuk **Dio Teknik Cilacap**.  
+Website ini dibuat sebagai profil online yang menampilkan informasi tentang jasa service, layanan, dan kontak dari CV Dio Teknik Cilacap.
 
-Currently, two official plugins are available:
+## Tentang Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project ini merupakan *static website company profile* yang bertujuan untuk memperkenalkan **Dio Teknik** sebagai penyedia jasa service, khususnya di wilayah Cilacap.
 
-## React Compiler
+Website ini menampilkan:
+- Informasi tentang perusahaan
+- Daftar layanan jasa service
+- Section “Tentang Kami”
+- Lokasi perusahaan menggunakan Google Maps
+- Informasi kontak dan media sosial
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Project ini dirancang dengan tampilan yang sederhana, clean, dan profesional agar mudah dipahami oleh calon pelanggan serta meningkatkan kepercayaan terhadap layanan yang ditawarkan.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project ini dibangun menggunakan teknologi front-end berikut:
+
+### ⚙️ Tools & Framework
+- **Vite** – Build tool modern untuk pengembangan web yang cepat
+- **React** – Library JavaScript untuk membangun user interface
+
+### 🧩 Bahasa & Styling
+- **JavaScript**
+- **HTML**
+- **CSS**
+
+### 📦 Linting
+- **ESLint** – Untuk menjaga kualitas dan konsistensi kode
+
+## Creator
+
+Project ini dibuat dan dikembangkan oleh:
+
+**Farell Dio Revianzha**
+
+---
